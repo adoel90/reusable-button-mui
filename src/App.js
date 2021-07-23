@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Button variant="contained" color="secondary">
+        <Button>
           Button
         </Button>
        

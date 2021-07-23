@@ -1,9 +1,18 @@
 import React from 'react';
 import { ThemeProvider, createTheme} from '@material-ui/core/styles';
 import ButtonComponent from '@material-ui/core/Button';
-import {themeColor} from '../themeColor'
 
-const theme = createTheme(themeColor);
+const themeMuiButton ={
+    props: {
+      // Name of the component ⚛️
+      MuiButtonBase: {
+        // The default props to change
+        disableRipple: true, // No more ripple, on the whole application 💣!
+      },
+    }  
+  }
+
+const theme = createTheme(themeMuiButton);
 
 export default function Button(props) {
 

@@ -1,55 +1,11 @@
 export const themeColor ={
-    typography: {
-        fontFamily: ['Raleway'].join(',')
-    },
-    palette: {
-        primary: {
-            light: '#555cdd',
-            main: '#0033aa',
-            dark: '#000f7a',
-            contrastText: '#ffffff',
-            contrastTextBlack: '#000000',
-    
-          },
-          secondary: {
-            light: '#ffa147',
-            main: '#fe7011',
-            dark: '#c34000',
-            contrastText: '#ffffff',
-            contrastTextBlack: '#000000'
-          },
-          tertiary: {
-            light:'#eaa2d1',
-            main: '#b772a0',
-            dark: '#864571'
-          },
-    
-          error: {
-            light: '#bf334c',
-            main: '#B00020',
-            dark: '#7b0016',
-            contrastText: '#000000',
-          },
-          warning: {
-            light: '#ffee33',
-            main: '#ffea00',
-            dark: '#b2a300',
-            contrastText: '#000000',
-          },
-          success: {
-            light: '#91ff35',
-            main: '#76ff03',
-            dark: '#52b202',
-            contrastText: '#ffffff',
-          },
-          common: {
-            white: '#ffffff',
-            black: '#000000',
-            gray: '#bdbdbd'
-            // ghost: '#f3f3f3'
-          } 
-    },
-  
+    props: {
+      // Name of the component ⚛️
+      MuiButtonBase: {
+        // The default props to change
+        disableRipple: true, // No more ripple, on the whole application 💣!
+      },
+    }  
   }
 
 // import RalewayWoff2 from './fonts/Raleway-Regular.woff2';
